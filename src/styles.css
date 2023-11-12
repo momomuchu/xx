@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.key-bindings-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.key-binding {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.key-binding p {
+  margin: 5px 0;
+}
+
+.key-binding-action {
+  font-weight: bold;
+}
+
+.vote-button {
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.vote-button-up {
+  color: blue;
+}
+
+.vote-button-up.voted {
+  background-color: blue;
+  color: white;
+}
+
+.vote-button-down {
+  color: orange;
+}
+
+.vote-button-down.voted {
+  background-color: orange;
+  color: white;
+}
+
+.vote-count {
+  margin-right: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
